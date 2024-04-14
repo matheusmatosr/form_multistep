@@ -41,7 +41,11 @@
 @media screen and (max-width:525px) {
   .steps {
     width: auto;
-    max-width: 350px;
-    gap: 2.5rem;
+    max-width: 330px;
+    gap: 2rem;
+  }
+
+  .steps::after {
+    width: 300px;
   }
 }

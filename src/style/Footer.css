@@ -1,0 +1,12 @@
+.footer{
+  padding: 15px;
+  background-color: rgb(83, 83, 83);
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+.footer span {
+  text-align: center;
+  color: #fff;
+}

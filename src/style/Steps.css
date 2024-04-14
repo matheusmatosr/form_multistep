@@ -37,3 +37,10 @@
 .active > svg {
   fill: #7076f4;
 }
+
+@media screen and (max-width:525px) {
+  .steps {
+    width: auto;
+    max-width: auto;
+  }
+}

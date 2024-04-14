@@ -41,6 +41,7 @@
 @media screen and (max-width:525px) {
   .steps {
     width: auto;
-    max-width: auto;
+    max-width: 350px;
+    gap: 2.5rem;
   }
 }

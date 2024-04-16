@@ -14,7 +14,6 @@ type ThanksProps = {
   };
 };
 
-
 const emojiData = {
   unsatisfied: <BsFillEmojiFrownFill />,
   neutral: <BsFillEmojiNeutralFill />,

@@ -4,7 +4,7 @@ import {
   BsFillEmojiNeutralFill,
   BsFillEmojiFrownFill,
 } from "react-icons/bs";
-import "../style/Steps.css";
+import "../style/Thanks.css";
 
 type ThanksProps = {
   data: {
@@ -33,11 +33,11 @@ const Thanks = ({ data }: ThanksProps) => {
       <p>Para concluir sua avaliação clique no botão de Enviar abaixo.</p>
       <h3>Aqui está o resumo da sua avaliação:</h3>
       <p className="review-data">
-        <span>Satisfação com o produto:</span>
+        <span>Satisfação com o produto = </span>
         {emojiData[data.review as keyof typeof emojiData]}
       </p>
       <p className="review-data">
-        <span>Comentário:</span> {data.comment}
+        <span>Comentário = </span> {data.comment}
       </p>
     </div>
   );

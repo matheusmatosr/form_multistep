@@ -1,7 +1,7 @@
 .app {
   padding: 2rem;
   padding-bottom: 8rem;
-  background-color: #000;
+  background-color: beige;
 }
 
 .header {
@@ -11,20 +11,21 @@
 
 .header h2 {
   font-size: 2rem;
-  margin-top: 2.2rem;
-  color: #fff;
-  text-shadow: rgb(87, 87, 88) 1.5px 1.5px;
+  margin-top: 1rem;
+  color: #000000;
+  text-shadow: rgb(216, 216, 216) 1.5px 1.5px;
 }
 
 .header p {
-  color: #cfcfcf;
+  color: #000000;
+  margin-top: 0.5rem;
 }
 
 /* Forms */
 .form-container {
   max-width: 600px;
   margin: 0 auto;
-  background-color: #fff;
+  background-color: rgb(250, 234, 183);
   padding: 1.5rem;
   border-radius: 20px;
   border: 3px solid rgb(123, 123, 123);
@@ -44,6 +45,10 @@
   flex-direction: column;
   gap: 0.6rem;
   margin-bottom: 2rem;
+}
+
+.form-control label {
+  color: #000000;
 }
 
 label {
@@ -70,6 +75,7 @@ textarea {
   display: flex;
   justify-content: flex-end;
   gap: 1rem;
+  margin-top: -30px;
 }
 
 .actions button {
@@ -80,19 +86,23 @@ textarea {
   align-items: center;
   border: 2px solid transparent;
   border-radius: 3px;
-  background-color: #c47789;
+  background-color: #bb2020;
   cursor: pointer;
   transition: 0.3s;
 }
 
+.actions button span {
+  color: #fff;
+}
+
 .green-button {
-  background-color: #7cb87e !important; 
+  background-color: #07811c !important; 
   color: white !important;
   border-color: transparent !important; 
 }
 
 .blue-button {
-  background-color: #6fa7d5 !important; 
+  background-color: #0563b1 !important; 
   color: white !important;
   border-color: transparent !important; 
 }

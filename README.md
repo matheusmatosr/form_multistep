@@ -8,7 +8,7 @@ Formulário que possui 3 etapas: Identificação com nome e email, Avaliação e
 
 1. Clone este repositório
 ```bash
-git clone https://github.com/matheusmatosr/loja](https://github.com/matheusmatosr/form_multistep.git
+git clone https://github.com/matheusmatosr/form_multistep.git
 ```
 
 Abra o terminal e faça os seguintes códigos:

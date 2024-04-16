@@ -75,7 +75,6 @@ textarea {
   display: flex;
   justify-content: flex-end;
   gap: 1rem;
-  margin-top: -22px;
 }
 
 .actions button {
